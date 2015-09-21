@@ -1,0 +1,252 @@
+/*
+ * To change this template, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package mfiari.yugioh.game.carte;
+
+import mfiari.yugioh.game.ville.Terrains;
+
+/**
+ *
+ * @author mike
+ */
+public class Cartes {
+    
+    /* Carte Monstre */
+    
+    public static CarteMonstreRituel abandonne = new CarteMonstreRituel("l'abandonné", 1, Type.tenebres, Categorie.magicien, "" , 0, 0, 3000, "64631466", "");
+    public static CarteMonstreNormaux abeille_tueuse = new CarteMonstreNormaux("l'abeille tueuse", 4, Type.vent, Categorie.insecte, "" , 1200, 1000, 3000, "88979991", "magie des ténèbres");
+    public static CarteMonstreFusion alligator_sword_dragon = new CarteMonstreFusion("Alligator's sword dragon", 5, Type.vent, Categorie.dragon, "" , 1700, 1500, 3000, "03366982", "");
+    public static CarteMonstreNormaux alpha_guerrier_magnetique = new CarteMonstreNormaux("Alpha le guerrier magnetique", 4, Type.terre, Categorie.rocher, "" , 1400, 1700, 3000, "99785935", "");
+    public static CarteMonstreEffet arlownay = new CarteMonstreEffet("arlownay", 3, Type.terre, Categorie.plante, "" , 800, 1000, 3000, "98642348", "");
+    public static CarteMonstreEffet armed_ninja = new CarteMonstreEffet("armed ninja", 1, Type.terre, Categorie.guerrier, "" , 300, 300, 3000, "09076207", "");
+    public static CarteMonstreNormaux akihiron = new CarteMonstreNormaux("akihiron", 5, Type.eau, Categorie.aucun, "" , 1700, 1400, 3000, "36904469", "");
+    public static CarteMonstreNormaux akakeisu = new CarteMonstreNormaux("akakeisu", 3, Type.tenebres, Categorie.magicien, "" , 1000, 800, 3000, "38035906", "");
+    public static CarteMonstreEffet acid_crawler = new CarteMonstreEffet("acid crawler", 3, Type.terre, Categorie.insecte, "" , 900, 700, 3000, "77568553", "");
+    public static CarteMonstreEffet air_eater = new CarteMonstreEffet("air eater", 6, Type.vent, Categorie.demon, "" , 2100, 1600, 3000, "12738331", "");
+    public static CarteMonstreNormaux alligator_sword = new CarteMonstreNormaux("alligator sword", 4, Type.terre, Categorie.bete, "" , 1500, 1200, 3000, "64428736", "");
+    public static CarteMonstreNormaux amazon_of_the_seas = new CarteMonstreNormaux("amazon of the seas", 4, Type.eau, Categorie.poisson, "" , 1300, 1400, 3000, "17968114", "");
+    public static CarteMonstreEffet ameba = new CarteMonstreEffet("ameba", 1, Type.eau, Categorie.aqua, "" , 300, 350, 3000, "95174353", "");
+    public static CarteMonstreFusion amphibious_bugroth = new CarteMonstreFusion("amphibious bugroth", 5, Type.eau, Categorie.aqua, "" , 1850, 1300, 3000, "40173854", "");
+    public static CarteMonstreEffet amphibious_bugroth_mk3 = new CarteMonstreEffet("amphibious bugroth mk-3", 4, Type.eau, Categorie.machine, "" , 1500, 1300, 3000, "64342551", "");
+    public static CarteMonstreNormaux ancient_brain = new CarteMonstreNormaux("ancient brain", 3, Type.tenebres, Categorie.demon, "" , 1000, 700, 3000, "42431843", "");
+    public static CarteMonstreNormaux elfe_ancient = new CarteMonstreNormaux("Elfe ancient", 4, Type.lumiere, Categorie.magicien, "" , 1450, 1200, 3000, "93221206", "");
+    public static CarteMonstreNormaux ancient_lizard_warrior = new CarteMonstreNormaux("ancient lizard warrior", 4, Type.terre, Categorie.reptile, "" , 1400, 1100, 3000, "43230671", "");
+    public static CarteMonstreNormaux ancient_one_of_deep_forest = new CarteMonstreNormaux("L'ancient de la foret", 6, Type.terre, Categorie.bete, "" , 1800, 1900, 3000, "14015067", "");
+    public static CarteMonstreNormaux ansatsu = new CarteMonstreNormaux("ansatsu", 5, Type.terre, Categorie.guerrier, "" , 1700, 1200, 3000, "48365709", "");
+    public static CarteMonstreNormaux anthrosaurus = new CarteMonstreNormaux("anthrosaurus", 3, Type.terre, Categorie.dinosaure, "" , 1000, 850, 3000, "89904598", "");
+    public static CarteMonstreFusion aqua_dragon = new CarteMonstreFusion("aqua dragon", 6, Type.eau, Categorie.serpent_mer, "" , 2250, 1900, 3000, "86164529", "");
+    public static CarteMonstreNormaux archfiend_marmot_of_nefariousness = new CarteMonstreNormaux("archfiend marmot of nefariousness", 2, Type.terre, Categorie.bete, "" , 400, 600, 3000, "75889523", "");
+    public static CarteMonstreNormaux armaill = new CarteMonstreNormaux("armaill", 3, Type.terre, Categorie.guerrier, "" , 700, 1300, 3000, "53153481", "");
+    public static CarteMonstreNormaux arma_knight = new CarteMonstreNormaux("arma knight", 4, Type.eau, Categorie.guerrier, "" , 1000, 1200, 3000, "36151751", "");
+    public static CarteMonstreNormaux armored_lizard = new CarteMonstreNormaux("armored lizard", 4, Type.terre, Categorie.reptile, "" , 1500, 1200, 3000, "15480588", "");
+    public static CarteMonstreNormaux armored_rat = new CarteMonstreNormaux("armored rat", 3, Type.terre, Categorie.bete, "" , 950, 1100, 3000, "16246527", "");
+    public static CarteMonstreNormaux armored_starship = new CarteMonstreNormaux("armored starship", 4, Type.eau, Categorie.aqua, "" , 850, 1400, 3000, "17535588", "");
+    public static CarteMonstreNormaux armored_zombie = new CarteMonstreNormaux("armored zombie", 3, Type.tenebres, Categorie.zombie, "" , 1500, 0, 3000, "20277860", "");
+    public static CarteMonstreNormaux aqua_madoor = new CarteMonstreNormaux("aqua madoor", 4, Type.eau, Categorie.magicien, "" , 1200, 2000, 3000, "85639257", "");
+    public static CarteMonstreNormaux axe_raider = new CarteMonstreNormaux("axe raider", 4, Type.terre, Categorie.guerrier, "" , 1700, 1150, 3000, "48305365", "");
+    public static CarteMonstreEffet banisher_of_the_light = new CarteMonstreEffet("banisher of the light", 3, Type.lumiere, Categorie.fee, "" , 100, 2000, 3000, "61528025", "");
+    public static CarteMonstreFusion barox = new CarteMonstreFusion("barox", 5, Type.tenebres, Categorie.demon, "" , 1380, 1530, 3000, "06840573", "");
+    public static CarteMonstreEffet barrel_dragon = new CarteMonstreEffet("barrel dragon", 7, Type.tenebres, Categorie.machine, "" , 2600, 2200, 3000, "81480460", "");
+    public static CarteMonstreNormaux barrel_lily = new CarteMonstreNormaux("barrel lily", 3, Type.terre, Categorie.plante, "" , 1100, 600, 3000, "67841515", "");
+    public static CarteMonstreNormaux barrel_rock = new CarteMonstreNormaux("barrel rock", 4, Type.terre, Categorie.rocher, "" , 1000, 1300, 3000, "10476868", "");
+    public static CarteMonstreNormaux battle_steer = new CarteMonstreNormaux("battle steer", 5, Type.terre, Categorie.bete_guerrier, "" , 1800, 1300, 3000, "18246479", "");
+    public static CarteMonstreNormaux battle_warrior = new CarteMonstreNormaux("battle warrior", 3, Type.terre, Categorie.guerrier, "" , 700, 1000, 3000, "55550921", "");
+    public static CarteMonstreEffet beastking_of_the_swamps = new CarteMonstreEffet("beastking of the swamps", 4, Type.eau, Categorie.aqua, "" , 1000, 1100, 3000, "99426834", "");
+    public static CarteMonstreNormaux bean_soldier = new CarteMonstreNormaux("bean soldier", 4, Type.terre, Categorie.plante, "" , 1400, 1300, 3000, "84990171", "");
+    public static CarteMonstreNormaux beautiful_headhuntress = new CarteMonstreNormaux("beautiful headhuntress", 4, Type.terre, Categorie.guerrier, "" , 1600, 800, 3000, "16899564", "");
+    public static CarteMonstreNormaux bebe_dragon = new CarteMonstreNormaux("Bébé dragon", 3, Type.vent, Categorie.dragon, "" , 1200, 700, 3000, "88819587", "magie des ténèbres");
+    public static CarteMonstreNormaux behegon = new CarteMonstreNormaux("behegon", 4, Type.eau, Categorie.aqua, "" , 1350, 1000, 3000, "94022093", "");
+    public static CarteMonstreNormaux beta_guerrier_magnetique = new CarteMonstreNormaux("beta le guerrier magnetique", 4, Type.terre, Categorie.rocher, "" , 1700, 1600, 3000, "39256679", "");
+    public static CarteMonstreNormaux basic_insecte = new CarteMonstreNormaux("Basic insecte", 2, Type.terre, Categorie.insecte, "" , 500, 700, 3000, "89091579", "magie des ténèbres");
+    public static CarteMonstreFusion bickuribox = new CarteMonstreFusion("Bickuribox", 7, Type.tenebres, Categorie.demon, "" , 2300, 2000, 3000, "25655502", "");
+    public static CarteMonstreEffet big_eye = new CarteMonstreEffet("Big eye", 4, Type.tenebres, Categorie.demon, "" , 1200, 1000, 3000, "16768387", "magie des ténèbres");
+    public static CarteMonstreNormaux big_insecte = new CarteMonstreNormaux("Big insecte", 4, Type.terre, Categorie.insecte, "" , 1200, 1500, 3000, "13458719", "");
+    public static CarteMonstreEffet binding_chain = new CarteMonstreEffet("Binding chain", 3, Type.lumiere, Categorie.fee, "" , 1000, 1100, 3000, "84935442", "magie des ténèbres");
+    public static CarteMonstreNormaux bio_plant = new CarteMonstreNormaux("Bio plant", 3, Type.tenebres, Categorie.plante, "" , 600, 1300, 3000, "07670542", "");
+    public static CarteMonstreNormaux black_dragon_jungle_king = new CarteMonstreNormaux("Black dragon jungle king", 6, Type.terre, Categorie.plante, "" , 2100, 1800, 3000, "89832901", "");
+    public static CarteMonstreNormaux blackland_fire_dragon = new CarteMonstreNormaux("Blackland fire dragon", 4, Type.tenebres, Categorie.dragon, "" , 1500, 800, 3000, "87564352", "");
+    public static CarteMonstreEffet bladefly = new CarteMonstreEffet("Bladefly", 2, Type.vent, Categorie.insecte, "" , 600, 700, 3000, "28470714", "magie des ténèbres");
+    public static CarteMonstreEffet blast_juggler = new CarteMonstreEffet("Blast Juggler", 3, Type.feu, Categorie.machine, "" , 800, 900, 3000, "70138455", "magie des ténèbres");
+    public static CarteMonstreEffet blast_sphere = new CarteMonstreEffet("Blast sphere", 4, Type.tenebres, Categorie.machine, "" , 1400, 1400, 3000, "26302522", "magie des ténèbres");
+    public static CarteMonstreNormaux blue_eye_shining_toon_dragon = new CarteMonstreNormaux("Blue eye shining dragon", 10, Type.lumiere, Categorie.dragon, "" , 3000, 2500, 3000, "DMC-CARDS", "");
+    public static CarteMonstreNormaux blue_eyed_silver_zombie = new CarteMonstreNormaux("Blue eyed silver zombie", 3, Type.tenebres, Categorie.zombie, "" , 900, 700, 3000, "35282433", "");
+    public static CarteMonstreEffet blue_eyes_toon_dragon = new CarteMonstreEffet("Blue eyes toon dragon", 8, Type.lumiere, Categorie.dragon, "" , 3000, 2500, 3000, "53183600", "magie des ténèbres");
+    public static CarteMonstreEffet blue_eyes_toon_ultimate_dragon = new CarteMonstreEffet("Blue eyes toon ultimate dragon", 12, Type.lumiere, Categorie.dragon, "" , 4500, 3800, 3000, "15671751", "magie des ténèbres");
+    public static CarteMonstreNormaux blue_winged_crown = new CarteMonstreNormaux("Blue-winged crown", 4, Type.vent, Categorie.bete_aile, "" , 1600, 1200, 3000, "41396436", "");
+    public static CarteMonstreEffet boar_soldier = new CarteMonstreEffet("Boar soldier", 4, Type.terre, Categorie.bete_guerrier, "" , 2000, 500, 3000, "21340051", "magie des ténèbres");
+    public static CarteMonstreEffet bolt_escargot = new CarteMonstreEffet("Bolt escargot", 5, Type.eau, Categorie.tonnerre, "" , 1400, 1500, 3000, "12146024", "magie des ténèbres");
+    public static CarteMonstreNormaux bottom_dweller = new CarteMonstreNormaux("Bottom dweller", 5, Type.eau, Categorie.poisson, "" , 1650, 1700, 3000, "81386177", "");
+    public static CarteMonstreFusion bracchio_raidus = new CarteMonstreFusion("bracchio raidus", 6, Type.eau, Categorie.dinosaure, "" , 2200, 2000, 3000, "16507828", "");
+    public static CarteMonstreNormaux burglar = new CarteMonstreNormaux("Burglar", 3, Type.terre, Categorie.bete, "" , 850, 800, 3000, "06297941", "");
+    public static CarteMonstreEffet buster_blader = new CarteMonstreEffet("Buster blader", 7, Type.terre, Categorie.guerrier, "" , 2600, 2300, 3000, "78193831", "magie des ténèbres");
+    public static CarteMonstreEffet candle_of_fate = new CarteMonstreEffet("Candle of fate", 2, Type.tenebres, Categorie.demon, "" , 600, 600, 3000, "47695416", "magie des ténèbres");
+    public static CarteMonstreEffet cannon_soldier = new CarteMonstreEffet("Cannon soldier", 4, Type.tenebres, Categorie.machine, "" , 1400, 1300, 3000, "11384280", "magie des ténèbres");
+    public static CarteMonstreEffet castle_of_dark_illusion = new CarteMonstreEffet("Castle of dark illusion", 4, Type.tenebres, Categorie.demon, "" , 920, 1930, 3000, "00062121", "magie des ténèbres");
+    public static CarteMonstreNormaux castor_guerrier = new CarteMonstreNormaux("castor guerrier", 4, Type.terre, Categorie.bete_guerrier, "" , 1200, 1500, 3000, "32452818", "");
+    public static CarteMonstreEffet catapult_turtle = new CarteMonstreEffet("tortue catapulte", 5, Type.eau, Categorie.aqua, "" , 1000, 2000, 3000, "95727991", "magie des ténèbres");
+    public static CarteMonstreEffet ceremonial_bell = new CarteMonstreEffet("ceremonial bell", 3, Type.lumiere, Categorie.magicien, "" , 0, 1850, 3000, "20228463", "magie des ténèbres");
+    public static CarteMonstreEffet charmeur_de_dragon = new CarteMonstreEffet("Charmeur de dragon", 8, Type.terre, Categorie.insecte, "" , 200, 1800, 3000, "55763552", "magie des ténèbres");
+    public static CarteMonstreFusion charubin_the_fire_knight = new CarteMonstreFusion("charubin the fire knight", 3, Type.feu, Categorie.feu, "" , 1100, 800, 3000, "37421579", "");
+    public static CarteMonstreNormaux cimetiere_de_mammouth = new CarteMonstreNormaux("cimetière de mammouth", 3, Type.terre, Categorie.dinosaure, "" , 1200, 800, 3000, "40374923", "magie des ténèbres");
+    public static CarteMonstreNormaux claw_reacher = new CarteMonstreNormaux("claw reacher", 3, Type.tenebres, Categorie.demon, "" , 1000, 800, 3000, "41218256", "magie des ténèbres");
+    public static CarteMonstreNormaux clown_zombie = new CarteMonstreNormaux("clown zombie", 2, Type.tenebres, Categorie.zombie, "" , 1350, 0, 3000, "92667214", "magie des ténèbres");
+    public static CarteMonstreEffet cockroach_knight = new CarteMonstreEffet("Cockroach knight", 3, Type.terre, Categorie.insecte, "" , 800, 900, 3000, "33413638", "magie du temps");
+    public static CarteMonstreEffet cocon_de_evolution = new CarteMonstreEffet("Cocon de l'évolution", 3, Type.terre, Categorie.insecte, "" , 0, 2000, 3000, "DB1-EN148", "magie du temps");
+    public static CarteMonstreNormaux colored_fish = new CarteMonstreNormaux("7 colored fish", 4, Type.eau, Categorie.poisson, "" , 1800, 800, 3000, "23771716", "");
+    public static CarteMonstreNormaux crane_serviteur = new CarteMonstreNormaux("crane serviteur", 1, Type.tenebres, Categorie.zombie, "" , 300, 200, 3000, "32274490", "");
+    public static CarteMonstreEffet crass_clown = new CarteMonstreEffet("crass clown", 4, Type.tenebres, Categorie.demon, "" , 1350, 1400, 3000, "93889755", "magie du temps");
+    public static CarteMonstreNormaux crawling_dragon = new CarteMonstreNormaux("crawling dragon", 5, Type.terre, Categorie.dragon, "" , 1600, 1400, 3000, "67494157", "magie des ténèbres");
+    public static CarteMonstreNormaux crawling_dragon_2 = new CarteMonstreNormaux("crawling dragon 2", 4, Type.terre, Categorie.dinosaure, "" , 1600, 1200, 3000, "38289717", "magie des ténèbres");
+    public static CarteMonstreNormaux crazy_fish = new CarteMonstreNormaux("crazy fish", 4, Type.eau, Categorie.poisson, "" , 1600, 1200, 3000, "53713014", "magie des ténèbres");
+    public static CarteMonstreFusion crimson_sunbird = new CarteMonstreFusion("crimson sunbird", 6, Type.feu, Categorie.bete_aile, "" , 2300, 1800, 3000, "46696593", "");
+    public static CarteMonstreNormaux crochet_argent = new CarteMonstreNormaux("Crochet d'argent", 3, Type.terre, Categorie.bete, "" , 1200, 800, 3000, "90357090", "magie des ténèbres");
+    public static CarteMonstreNormaux crow_goblin = new CarteMonstreNormaux("Crow goblin", 5, Type.vent, Categorie.bete_aile, "" , 1850, 1600, 3000, " 77998771", "magie des ténèbres");
+    public static CarteMonstreNormaux curtain_of_the_dark_ones = new CarteMonstreNormaux("Curtain of the dark ones", 2, Type.tenebres, Categorie.magicien, "" , 600, 500, 3000, "22026707", "magie des ténèbres");
+    public static CarteMonstreNormaux cyber_commander = new CarteMonstreNormaux("Cyber commander", 2, Type.tenebres, Categorie.machine, "" , 750, 700, 3000, "06400512", "magie des ténèbres");
+    public static CarteMonstreNormaux cyber_falcon = new CarteMonstreNormaux("Cyber falcon", 4, Type.vent, Categorie.machine, "" , 1400, 1200, 3000, "30655537", "magie des ténèbres");
+    public static CarteMonstreEffet cyber_jar = new CarteMonstreEffet("Cyber jar", 3, Type.tenebres, Categorie.rocher, "" , 900, 900, 3000, "34124316", "magie des ténèbres");
+    public static CarteMonstreFusion cyber_saurus = new CarteMonstreFusion("cyber saurus", 5, Type.terre, Categorie.machine, "" , 1800, 1400, 3000, "89112729", "");
+    public static CarteMonstreNormaux cyber_soldier = new CarteMonstreNormaux("Cyber soldier", 5, Type.tenebres, Categorie.machine, "" , 1500, 1700, 3000, "44865098", "magie des ténèbres");
+    public static CarteMonstreEffet cyber_stein = new CarteMonstreEffet("Cyber-stein", 2, Type.tenebres, Categorie.machine, "" , 700, 500, 3000, "69015963", "magie des ténèbres");
+    public static CarteMonstreNormaux cyber_tech_alligator = new CarteMonstreNormaux("Cyber tech alligator", 5, Type.vent, Categorie.machine, "" , 2500, 1600, 3000, "48766543", "magie des ténèbres");
+    public static CarteMonstreNormaux dancing_elf = new CarteMonstreNormaux("dancing elf", 1, Type.vent, Categorie.fee, "" , 300, 200, 3000, "59983499", "magie des ténèbres");
+    public static CarteMonstreEffet dark_artist = new CarteMonstreEffet("dark artist", 3, Type.tenebres, Categorie.demon, "" , 600, 1400, 3000, "72520073", "magie des ténèbres");
+    public static CarteMonstreNormaux dark_assailant = new CarteMonstreNormaux("dark assailant", 4, Type.tenebres, Categorie.zombie, "" , 1200, 1200, 3000, "41949033", "magie des ténèbres");
+    public static CarteMonstreNormaux dark_chimera = new CarteMonstreNormaux("dark chimera", 5, Type.tenebres, Categorie.demon, "" , 1610, 1460, 3000, "32344688", "magie des ténèbres");
+    public static CarteMonstreEffet dark_elf = new CarteMonstreEffet("dark elf", 4, Type.tenebres, Categorie.magicien, "" , 2000, 800, 3000, "21417692", "magie des ténèbres");
+    public static CarteMonstreNormaux dark_gray = new CarteMonstreNormaux("dark gray", 3, Type.terre, Categorie.bete, "" , 800, 900, 3000, "09159938", "magie des ténèbres");
+    public static CarteMonstreNormaux dark_human = new CarteMonstreNormaux("dark human", 4, Type.terre, Categorie.guerrier, "" , 1300, 1100, 3000, "81057959", "magie des ténèbres");
+    public static CarteMonstreNormaux dark_king_of_the_abyss = new CarteMonstreNormaux("dark king of the abyss", 3, Type.tenebres, Categorie.demon, "" , 1200, 800, 3000, "53375573", "magie des ténèbres");
+    public static CarteMonstreFusion dark_magician_girl_dragon_knight = new CarteMonstreFusion("dark magician girl the dragon knight", 8, Type.tenebres, Categorie.dragon, "" , 2600, 1700, 3000, "REPLICA", "");
+    public static CarteMonstreNormaux dark_rabbit = new CarteMonstreNormaux("dark rabbit", 4, Type.tenebres, Categorie.bete, "" , 1100, 1500, 3000, "99261403", "magie des ténèbres");
+    public static CarteMonstreNormaux diablotin = new CarteMonstreNormaux("Diablotin", 4, Type.tenebres, Categorie.demon, "" , 1300, 1400, 3000, "41392891", "décharge électrique");
+    public static CarteMonstreNormaux dragon_aile_gardien_de_la_forteresse = new CarteMonstreNormaux("Dragon ailé gardien de la forteresse", 4, Type.vent, Categorie.dragon, "" , 1400, 1200, 3000, "87796900", "magie des ténèbres");
+    public static CarteMonstreNormaux dragon_blanc_aux_yeux_bleu = new CarteMonstreNormaux("Dragon blanc aux yeux bleu", 8, Type.lumiere, Categorie.dragon, "" , 3000, 2500, 3000, "89631139", "magie des ténèbres");
+    public static CarteMonstreNormaux dragon_koumori = new CarteMonstreNormaux("Dragon koumori", 4, Type.tenebres, Categorie.dragon, "" , 1500, 1200, 3000, "67724379", "magie des ténèbres");
+    public static CarteMonstreFusion dragon_milenaire = new CarteMonstreFusion("dragon milenaire", 7, Type.vent, Categorie.dragon, "" , 2400, 2000, 3000, "FP01-FR049", "");
+    public static CarteMonstreNormaux exodia_le_maudit = new CarteMonstreNormaux("Exodia le maudit", 8, Type.tenebres, Categorie.magicien, "" , 5000, 5000, 3000, "0", "magie des ténèbres");
+    public static CarteMonstreEffet exodia_tete = new CarteMonstreEffet("Exodia le maudit", 3, Type.tenebres, Categorie.magicien, "" , 1000, 1000, 3000, "33396948", "magie des ténèbres");
+    public static CarteMonstreNormaux exodia_main_droite = new CarteMonstreNormaux("Main droite d'exodia", 1, Type.tenebres, Categorie.magicien, "" , 200, 300, 3000, "70903634", "magie des ténèbres");
+    public static CarteMonstreNormaux exodia_main_gauche = new CarteMonstreNormaux("Main gauche d'exodia", 1, Type.tenebres, Categorie.magicien, "" , 200, 300, 3000, "07902349", "magie des ténèbres");
+    public static CarteMonstreNormaux exodia_pied_droit = new CarteMonstreNormaux("pied droit d'exodia", 1, Type.tenebres, Categorie.magicien, "" , 200, 300, 3000, "08124921", "magie des ténèbres");
+    public static CarteMonstreNormaux exodia_pied_gauche = new CarteMonstreNormaux("pied gauche d'exodia", 1, Type.tenebres, Categorie.magicien, "" , 200, 300, 3000, "44519536", "magie des ténèbres");
+    public static CarteMonstreEffet fille_malheureuse = new CarteMonstreEffet("fille malheureuse", 1, Type.lumiere, Categorie.magicien, "" , 0, 100, 3000, "51275027", "magie des ténèbres");
+    public static CarteMonstreFusion gaia_le_chevalier_dragon = new CarteMonstreFusion("Gaia le chevalier dragon", 7, Type.vent, Categorie.dragon, "" , 2600, 2100, 3000, "66889139", "");
+    public static CarteMonstreNormaux gaia_le_chevalier_feroce = new CarteMonstreNormaux("Gaïa le chevalier féroce", 7, Type.terre, Categorie.guerrier, "" , 2300, 2100, 3000, "06368038", "attaque en spiral");
+    public static CarteMonstreNormaux gamma_guerrier_magnetique = new CarteMonstreNormaux("Gamma le guerrier magnetique", 4, Type.terre, Categorie.rocher, "" , 1500, 1800, 3000, "11549357", "");
+    public static CarteMonstreNormaux gardien_celte = new CarteMonstreNormaux("Gardien celte", 4, Type.terre, Categorie.guerrier, "" , 1400, 1200, 3000, "91152256", "magie des ténèbres");
+    public static CarteMonstreFusion guerrier_zombie = new CarteMonstreFusion("Guerrier zombie", 3, Type.tenebres, Categorie.insecte, "" , 1200, 900, 3000, "31339260", "magie des ténèbres");
+    public static CarteMonstreEffet greath_moth = new CarteMonstreEffet("Mite géante", 8, Type.terre, Categorie.insecte, "" , 3500, 3000, 3000, "TSC-001", "moth burning death tornado");
+    public static CarteMonstreNormaux griffore = new CarteMonstreNormaux("Griffore", 4, Type.terre, Categorie.bete, "" , 1200, 1500, 3000, "53829412", "décharge électrique");
+    public static CarteMonstreNormaux happy_lover = new CarteMonstreNormaux("Happy lover", 2, Type.lumiere, Categorie.fee, "" , 800, 1200, 3000, "99030164", "magie des ténèbres");
+    public static CarteMonstreNormaux hitotsu_le_geant = new CarteMonstreNormaux("Hitotsu le géant", 4, Type.terre, Categorie.bete_guerrier, "" , 1200, 1000, 3000, "76184692", "magie des ténèbres");
+    public static CarteMonstreNormaux jarre_ancienne = new CarteMonstreNormaux("jarre ancienne", 1, Type.terre, Categorie.rocher, "" , 400, 200, 3000, "8149222", "");
+    public static CarteMonstreNormaux king_rex_a_deux_tete = new CarteMonstreNormaux("King rex à deux tête", 4, Type.terre, Categorie.dragon, "" , 1600, 1200, 3000, "94119974", "magie des ténèbres");
+    public static CarteMonstreEffet kuriboh = new CarteMonstreEffet("Kuriboh", 1, Type.tenebres, Categorie.demon, "" , 300, 200, 3000, "40640057", "moth burning death tornado");
+    public static CarteMonstreEffet larve_de_mite = new CarteMonstreEffet("Larve de mite", 2, Type.terre, Categorie.insecte, "" , 500, 400, 3000, "DB1-EN144", "magie du temps");
+    public static CarteMonstreEffet le_bouclier = new CarteMonstreEffet("le bouclier", 4, Type.terre, Categorie.guerrier, "" , 100, 2600, 3000, "65240384", "");
+    public static CarteMonstreNormaux le_juge = new CarteMonstreNormaux("Le juge", 6, Type.terre, Categorie.guerrier, "" , 2200, 1500, 3000, "30113682", "magie des ténèbres");
+    public static CarteMonstreNormaux mage_sans_visage = new CarteMonstreNormaux("Mage sans visage", 5, Type.tenebres, Categorie.magicien, "" , 1200, 2200, 3000, "28546905", "magie des ténèbres");
+    public static CarteMonstreNormaux magicien_des_tenebres = new CarteMonstreNormaux("Magicien des Ténèbres", 7, Type.tenebres, Categorie.magicien, "" , 2500, 2100, 3000, "46986414", "magie des ténèbres");
+    public static CarteMonstreEffet magicienne_des_tenebres = new CarteMonstreEffet("Magicienne des Ténèbres", 6, Type.tenebres, Categorie.magicien, "" , 2000, 1700, 3000, "38033121", "magie des ténèbres");
+    public static CarteMonstreEffet magicien_du_temps = new CarteMonstreEffet("Magicien du temps", 2, Type.lumiere, Categorie.magicien, "" , 500, 500, 3000, "71625222", "magie du temps");
+    public static CarteMonstreNormaux malediction_du_dragon = new CarteMonstreNormaux("Malédiction du dragon", 5, Type.tenebres, Categorie.dragon, "" , 2000, 1500, 3000, "28279543", "flamme de l'enfer");
+    public static CarteMonstreEffet manga_ryu_ran = new CarteMonstreEffet("Manga Ryu-Ran", 7, Type.feu, Categorie.dragon, "" , 2200, 2600, 3000, "38369349", "magie du temps");
+    public static CarteMonstreNormaux ogre_de_pierre = new CarteMonstreNormaux("Ogre de pierre", 3, Type.terre, Categorie.rocher, "" , 800, 1200, 3000, "68846917", "magie des ténèbres");
+    public static CarteMonstreNormaux outil_ancien = new CarteMonstreNormaux("outil ancien", 5, Type.tenebres, Categorie.machine, "" , 1700, 1400, 3000, "49587396", "");
+    public static CarteMonstreEffet perfectly_ultimate_great_moth = new CarteMonstreEffet("Mite géante ultime", 8, Type.terre, Categorie.insecte, "" , 2600, 2500, 3000, "DB2-EN043", "moth burning death tornado");
+    public static CarteMonstreEffet pumpking_king_of_toon = new CarteMonstreEffet("pumpinkg the king of toon", 6, Type.tenebres, Categorie.zombie, "" , 1800, 2000, 3000, "16147782", "moth burning death tornado");
+    public static CarteMonstreEffet red_eyes_toon_dragon = new CarteMonstreEffet("red eyes toon dragon", 7, Type.tenebres, Categorie.dragon, "" , 2400, 2000, 3000, "92911594", "moth burning death tornado");
+    public static CarteMonstreNormaux ryu_kishin = new CarteMonstreNormaux("ryu-kishin", 3, Type.tenebres, Categorie.demon, "" , 1000, 500, 3000, "15303296", "");
+    public static CarteMonstreNormaux saggi_le_bouffon_des_tenebres = new CarteMonstreNormaux("Saggi le bouffon des Ténèbres", 3, Type.tenebres, Categorie.magicien, "" , 600, 1500, 3000, "66602787", "magie des ténèbres");
+    public static CarteMonstreEffet sangan = new CarteMonstreEffet("Sangan", 3, Type.tenebres, Categorie.demon, "" , 1000, 600, 3000, "26202165", "magie des ténèbres");
+    public static CarteMonstreNormaux scarabee_hercule = new CarteMonstreNormaux("Scarabée hercule", 5, Type.terre, Categorie.insecte, "" , 1500, 2000, 3000, "52584282", "magie des ténèbres");
+    public static CarteMonstreFusion sorciere_du_sable = new CarteMonstreFusion("Sociere du sable", 6, Type.terre, Categorie.rocher, "" , 2100, 1700, 3000, "32751480", "");
+    public static CarteMonstreNormaux squelette_malfaisant = new CarteMonstreNormaux("Squelette malfaisant", 6, Type.tenebres, Categorie.demon, "" , 2500, 1200, 3000, "70781052", "magie des ténèbres");
+    public static CarteMonstreNormaux thousand_eyes_idol = new CarteMonstreNormaux("thousand-eyes idol", 1, Type.tenebres, Categorie.magicien, "" , 0, 0, 3000, "27125110", "");
+    public static CarteMonstreFusion thousand_eyes_restrict = new CarteMonstreFusion("thousand-eyes restrict", 1, Type.tenebres, Categorie.magicien, "" , 0, 0, 3000, "63519819", "");
+    public static CarteMonstreNormaux toon_aligator = new CarteMonstreNormaux("toon aligator", 4, Type.eau, Categorie.reptile, "" , 800, 1600, 3000, "59383041", "");
+    public static CarteMonstreEffet toon_cannon_soldier = new CarteMonstreEffet("toon cannon soldier", 4, Type.tenebres, Categorie.machine, "" , 1400, 1300, 3000, "79875176", "magie des ténèbres");
+    public static CarteMonstreEffet toon_dark_magician = new CarteMonstreEffet("toon dark magician", 7, Type.tenebres, Categorie.magicien, "" , 2500, 2100, 3000, "44202095", "magie des ténèbres");
+    public static CarteMonstreEffet toon_dark_magician_girl = new CarteMonstreEffet("toon dark magician girl", 6, Type.tenebres, Categorie.magicien, "" , 2000, 1700, 3000, "90960358", "magie des ténèbres");
+    public static CarteMonstreFusion toon_dark_magician_girl_dragon_rider = new CarteMonstreFusion("toon dark magician girl the dragon rider", 10, Type.tenebres, Categorie.dragon, "" , 3200, 2500, 3000, "56060840", "");
+    public static CarteMonstreEffet toon_gemini_elf = new CarteMonstreEffet("toon gemini elf", 4, Type.terre, Categorie.magicien, "" , 1900, 900, 3000, "42386471", "magie des ténèbres");
+    public static CarteMonstreEffet toon_goblin_attack_force = new CarteMonstreEffet("toon goblin attack force", 4, Type.terre, Categorie.guerrier, "" , 2300, 0, 3000, "15270885", "magie des ténèbres");
+    public static CarteMonstreEffet toon_harpie_lady = new CarteMonstreEffet("toon harpy lady", 4, Type.vent, Categorie.bete_aile, "" , 1300, 1400, 3000, "61694458", "magie des ténèbres");
+    public static CarteMonstreEffet toon_jinzo = new CarteMonstreEffet("toon jinzo", 6, Type.tenebres, Categorie.machine, "" , 2400, 1500, 3000, "43569682", "magie des ténèbres");
+    public static CarteMonstreEffet toon_magician_of_black_chaos = new CarteMonstreEffet("toon magician of black chaos", 8, Type.lumiere, Categorie.magicien, "" , 2800, 2600, 3000, "57729801", "magie des ténèbres");
+    public static CarteMonstreEffet toon_masked_sorcerer = new CarteMonstreEffet("toon masked_sorcerer", 4, Type.tenebres, Categorie.magicien, "" , 900, 1400, 3000, "16392422", "magie des ténèbres");
+    public static CarteMonstreEffet toon_mermaid = new CarteMonstreEffet("toon mermaid", 4, Type.eau, Categorie.aqua, "" , 1400, 1500, 3000, "65458948", "magie des ténèbres");
+    public static CarteMonstreNormaux torike = new CarteMonstreNormaux("torike", 3, Type.terre, Categorie.dinosaure, "" , 1200, 600, 3000, "80813021", "");
+    public static CarteMonstreEffet valkyrion_guerrier_magnetique = new CarteMonstreEffet("valkyrion le guerrier magnetique", 8, Type.terre, Categorie.rocher, "" , 3500, 3850, 3000, "75347539", "magie des ténèbres");
+    
+    
+    /* Carte Magie */
+    
+    public static CarteMagieNormal ancient_telescope = new CarteMagieNormal("Ancient telescope", TypeMagie.normal, "", 0, "17092736", Affectation.carteMagie);
+    public static CarteMagieEquipement armure_insecte_avec_canon_laser = new CarteMagieEquipement("Armure d'insecte avec canon laser", "", 0, "03492538", 300, 0, Categorie.insecte, Type.tous, Affectation.monstreAllie);
+    public static CarteMagieEquipement axe_of_despair = new CarteMagieEquipement("axe of despair", "", 0, "40619825", 1000, 0, Categorie.tous, Type.tous, Affectation.monstreAllie);
+    public static CarteMagieEquipement beast_fangs = new CarteMagieEquipement("croc de bete", "", 0, "46009906", 300, 300, Categorie.bete, Type.tous, Affectation.monstreAllie);
+    public static CarteMagieNormal black_illusion_ritual = new CarteMagieNormal("Black illusion ritual", TypeMagie.normal, "", 0, "41426869", Affectation.carteMagie);
+    public static CarteMagieNormal black_pendant = new CarteMagieNormal("Black pendant", TypeMagie.normal, "", 0, "65179794", Affectation.carteMagie);
+    public static CarteMagieNormal block_attack = new CarteMagieNormal("Block attack", TypeMagie.normal, "", 0, "25880422", Affectation.carteMagie);
+    public static CarteMagieNormal blue_medicine = new CarteMagieNormal("Blue medicine", TypeMagie.normal, "", 0, "20871001", Affectation.carteMagie);
+    public static CarteMagieNormal book_of_secret_arts = new CarteMagieNormal("Book of secret art", TypeMagie.normal, "", 0, "91595718", Affectation.carteMagie);
+    public static CarteMagieNormal breath_of_light = new CarteMagieNormal("Breath of light", TypeMagie.normal, "", 0, "20101223", Affectation.carteMagie);
+    public static CarteMagieNormal burning_spear = new CarteMagieNormal("Burning spear", TypeMagie.normal, "", 0, "18937875", Affectation.carteMagie);
+    public static CarteMagieNormal bouclier_et_epee = new CarteMagieNormal("Bouclier et épée", TypeMagie.normal, "", 0, "32097679", Affectation.tousMonstre);
+    public static CarteMagieNormal chain_energy = new CarteMagieNormal("chain energy", TypeMagie.normal, "", 0, "79323590", Affectation.tousMonstre);
+    public static CarteMagieNormal chorus_of_sanctuary = new CarteMagieNormal("chorus of sanctuary", TypeMagie.normal, "", 0, "81380218", Affectation.tousMonstre);
+    public static CarteMagieEquipement completed = new CarteMagieEquipement("7 completed", "", 0, "86198326", 700, 700, Categorie.machine, Type.tous, Affectation.monstreAllie);
+    public static CarteMagieNormal confiscation = new CarteMagieNormal("confiscation", TypeMagie.normal, "", 0, "17375316", Affectation.tousMonstre);
+    public static CarteMagieEquipement corne_de_licorne = new CarteMagieEquipement("Corne de licorne", "", 0, "64047146", 700, 700, Categorie.tous, Type.tous, Affectation.monstreAllie);
+    public static CarteMagieNormal curse_of_fiend = new CarteMagieNormal("curse of fiend", TypeMagie.normal, "", 0, "12470447", Affectation.tousMonstre);
+    public static CarteMagieEquipement cyber_shield = new CarteMagieEquipement("cyber shield", "", 0, "63224564", 500, 0, Categorie.aucun, Type.tous, Affectation.monstreAllie);
+    public static CarteMagieEquipement dark_energy = new CarteMagieEquipement("dark energy", "", 0, "01614116", 300, 0, Categorie.demon, Type.tous, Affectation.monstreAllie);
+    public static CarteMagieNormal de_de_ange = new CarteMagieNormal("dé de l'ange", TypeMagie.normal, "", 0, "74137509", Affectation.carteMagie);
+    public static CarteMagieNormal echange_de_coeur = new CarteMagieNormal("échange de coeur", TypeMagie.normal, "", 0, "04031928", Affectation.carteMagie);
+    public static CarteMagieNormal eclair = new CarteMagieNormal("éclair", TypeMagie.normal, "", 0, "12580477", Affectation.carteMagie);
+    public static CarteMagieNormal epee_de_lumiere_revelatrice = new CarteMagieNormal("épée de lumière révélatrice", TypeMagie.normal, "", 0, "72302403", Affectation.carteMagie);
+    public static CarteMagieNormal makiu_brume_mystique = new CarteMagieNormal("Makiu la brume mystique", TypeMagie.normal, "", 0, "27827272", Affectation.carteMagie);
+    public static CarteMagieNormal polymerisation = new CarteMagieNormal("Polymérisation", TypeMagie.normal, "", 0, "24094653", Affectation.carteMagie);
+    public static CarteMagieNormal resurection_du_monstre = new CarteMagieNormal("résurection du monstre", TypeMagie.normal, "", 0, "83764718", Affectation.carteMagie);
+    public static CarteMagieEquipement salamandra = new CarteMagieEquipement("Salamandra", "", 0, "32268901", 700, 0, Categorie.tous, Type.feu, Affectation.monstreAllie);
+    public static CarteMagieNormal stop_defense = new CarteMagieNormal("stop défense", TypeMagie.normal, "", 0, "63102017", Affectation.carteMagie);
+    public static CarteMagieNormal shine_palace = new CarteMagieNormal("Shine palace", TypeMagie.normal, "", 0, "82878489", Affectation.carteMagie);
+    public static CarteMagieTerrain terrain_desert = new CarteMagieTerrain("desert", "", 0, "23424603", Terrains.terrain_desert);
+    public static CarteMagieTerrain terrain_montagne = new CarteMagieTerrain("montagne", "", 0, "50913601", Terrains.terrain_montagne);
+    public static CarteMagieTerrain terrain_foret = new CarteMagieTerrain("foret", "", 0, "87430998", Terrains.terrain_foret);
+    public static CarteMagieTerrain terrain_mer = new CarteMagieTerrain("mer", "", 0, "22702055", Terrains.terrain_mer);
+    public static CarteMagieTerrain terrain_prairie = new CarteMagieTerrain("prairie", "", 0, "86318356", Terrains.terrain_prairie);
+    public static CarteMagieTerrain terrain_tenebres = new CarteMagieTerrain("tenebres", "", 0, "59197169", Terrains.terrain_tenebres);
+    public static CarteMagieNormal the_seal_of_orichalcos = new CarteMagieNormal("the seal of orichalcos", TypeMagie.normal, "", 0, "48179391", Affectation.carteMagie);
+    public static CarteMagieNormal toon_world = new CarteMagieNormal("Toon world", TypeMagie.normal, "", 0, "15259703", Affectation.carteMagie);
+    public static CarteMagieNormal toon_table_of_contents = new CarteMagieNormal("Toon table of contents", TypeMagie.normal, "", 0, "89997728", Affectation.carteMagie);
+    public static CarteMagieNormal trou_noir = new CarteMagieNormal("Trou noir", TypeMagie.normal, "", 0, "53129443", Affectation.carteMagie);
+    
+    
+    /* Carte piege */
+    
+    public static CartePiegeNormal acid_trap_hole = new CartePiegeNormal("Acid trap hole", TypeMagie.normal, "", 0, "41356845");
+    public static CartePiegeNormal anti_raigeki = new CartePiegeNormal("Anti eclair", TypeMagie.normal, "", 0, "42364257");
+    public static CartePiegeNormal anti_spell_fragrance = new CartePiegeNormal("Anti spell fragrance", TypeMagie.normal, "", 0, "58921041");
+    public static CartePiegeNormal appropriate = new CartePiegeNormal("Appropriate", TypeMagie.normal, "", 0, "48539234");
+    public static CartePiegeNormal aqua_chorus = new CartePiegeNormal("Aqua chorus", TypeMagie.continu, "", 0, "95132338");
+    public static CartePiegeNormal armored_glass = new CartePiegeNormal("Armored glass", TypeMagie.normal, "", 0, "36868108");
+    public static CartePiegeNormal backup_soldier = new CartePiegeNormal("backup soldier", TypeMagie.normal, "", 0, "36280194");
+    public static CartePiegeNormal call_of_darkness = new CartePiegeNormal("Call of darkness", TypeMagie.normal, "", 0, "78637313");
+    public static CartePiegeNormal call_of_the_grave = new CartePiegeNormal("Call of the grave", TypeMagie.normal, "", 0, "16970158");
+    public static CartePiegeNormal call_of_the_haunted = new CartePiegeNormal("Call of the haunted", TypeMagie.normal, "", 0, "97077563");
+    public static CartePiegeNormal ceasefire = new CartePiegeNormal("Ceasefire", TypeMagie.normal, "", 0, "36468556");
+    public static CartePiegeNormal castle_walls = new CartePiegeNormal("Castle walls", TypeMagie.normal, "", 0, "44209392");
+    public static CartePiegeNormal chain_destruction = new CartePiegeNormal("chain destruction", TypeMagie.normal, "", 0, "01248895");
+    public static CartePiegeNormal chapeau_magique = new CartePiegeNormal("chapeau magique", TypeMagie.normal, "", 0, "81210420");
+    public static CartePiegeNormal crush_card_virus = new CartePiegeNormal("Crush card virus", TypeMagie.normal, "", 0, " 57728570");
+    public static CartePiegeNormal de_du_demon = new CartePiegeNormal("dé du démon", TypeMagie.normal, "", 0, "00126218");
+    public static CartePiegeNormal force_mirroire = new CartePiegeNormal("force mirroire", TypeMagie.normal, "", 0, "44095762");
+    public static CartePiegeNormal jarre_capture_de_dragon = new CartePiegeNormal("jarre capture de dragon", TypeMagie.continu, "", 0, "50045299");
+    public static CartePiegeNormal kunai_with_chaine = new CartePiegeNormal("kunai with chaine", TypeMagie.normal, "", 0, "37390589");
+    public static CartePiegeNormal toon_defense = new CartePiegeNormal("toon defense", TypeMagie.normal, "", 0, "43509019");
+    
+}
