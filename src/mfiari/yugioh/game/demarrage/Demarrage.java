@@ -21,6 +21,10 @@ import mfiari.yugioh.game.perso.Duelistes;
  */
 public class Demarrage extends ControlleurVue {
     
+    public Demarrage () {
+        super(true);
+    }
+    
     
     private void debutJeu() {
         do {
@@ -33,13 +37,13 @@ public class Demarrage extends ControlleurVue {
         CreationEndroit creationEndroit = new CreationEndroit();
         CreationEvenement creationEvenement = new CreationEvenement();
         CreationPerso creationPerso = new CreationPerso();
-        ConnexionBD connexionBD = new ConnexionBD();
+        /*ConnexionBD connexionBD = new ConnexionBD();
         Connexion c = new Connexion(connexionBD.getConnexionHSQL(Global.hsqlLocation, Global.hsqlUser, Global.hsqlMdp));
         if (c.isConnected()) {
             c.parties();
             c.CreerPartie();
             connexionBD.fermerConnexionHSQL();
-        }
+        }*/
     }
 
     private void continuer() {

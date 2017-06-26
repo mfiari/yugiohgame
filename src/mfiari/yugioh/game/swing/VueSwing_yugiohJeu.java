@@ -66,13 +66,13 @@ public class VueSwing_yugiohJeu extends VueSwing {
                     afficheEndroit();
                 } else if (evt.getPropertyName().equals("deplacerPerso")) {
                     deplacerPerso((Position)evt.getOldValue(), (Position)evt.getNewValue());
+                } else if (evt.getPropertyName().equals("parole")) {
+                    parole();
+                } else if (evt.getPropertyName().equals("affichage")) {
+                    affichage();
                 } else {
                     if (evt.getPropertyName().equals("perdu")) {
                         Perdu();
-                    } else if (evt.getPropertyName().equals("parole")) {
-                        parole();
-                    } else if (evt.getPropertyName().equals("affichage")) {
-                        affichage();
                     } else if (evt.getPropertyName().equals("choix")) {
                         choix();
                     } else if (evt.getPropertyName().equals("actionJeu")) {

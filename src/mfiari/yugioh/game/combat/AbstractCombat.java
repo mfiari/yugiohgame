@@ -50,6 +50,7 @@ public abstract class AbstractCombat extends ControlleurVue {
     protected int nbSacrifice;
     
     public AbstractCombat () {
+        super(true);
         this.mainPerso1 = new Deck(5);
         this.cimetierePerso1 = new ListeDeCarte();
         this.pvPerso1 = 2000;

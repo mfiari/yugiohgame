@@ -76,6 +76,9 @@ public class VueSwing_combat extends VueSwing {
                     case "afficherPvPerso":
                         afficherPvPerso();
                         break;
+                    case "affichage":
+                        setAffichageCombat();
+                        break;
                     case "afficherPvAdv":
                         afficherPvAdv();
                         break;
@@ -89,9 +92,6 @@ public class VueSwing_combat extends VueSwing {
                                 break;
                             case "afficherMenuJoueur":
                                 afficherMenuJoueur();
-                                break;
-                            case "affichage":
-                                setAffichageCombat();
                                 break;
                             case "choixMode":
                                 choixMode();

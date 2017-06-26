@@ -18,7 +18,7 @@ import mfiari.yugioh.game.perso.Dueliste;
 public class YugiohJeu extends Jeu {
     
     public YugiohJeu () {
-        super();
+        super(true);
     }
     
     public void jouer (EvenementQuete jeu, Dueliste perso) {
