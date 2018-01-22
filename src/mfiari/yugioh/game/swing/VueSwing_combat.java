@@ -203,7 +203,7 @@ public class VueSwing_combat extends VueSwing {
                         if (this.combat.getPlateauDeCartePerso2().isCarteMagie(j)) {
                             Carte carteMagie = this.combat.getPlateauDeCartePerso2().getCarteMagie(j);
                             JButton boutonCarte = new JButton();
-                            boutonCarte.addActionListener(new boutonChoixCarteTerrainAdv(j+6));
+                            boutonCarte.addActionListener(new boutonChoixCarteTerrainAdv(j+1));
                             String code;
                             if (this.combat.getPlateauDeCartePerso2().getVisibiliteCarteMagie(j).equals(Visibilite.cache)) {
                                 code = "0";
@@ -220,7 +220,7 @@ public class VueSwing_combat extends VueSwing {
                         } else if (this.combat.getPlateauDeCartePerso2().isCartePiege(j)) {
                             Carte carteMagie = this.combat.getPlateauDeCartePerso2().getCartePiege(j);
                             JButton boutonCarte = new JButton();
-                            boutonCarte.addActionListener(new boutonChoixCarteTerrainAdv(j+6));
+                            boutonCarte.addActionListener(new boutonChoixCarteTerrainAdv(j+1));
                             String code;
                             if (this.combat.getPlateauDeCartePerso2().getVisibiliteCarteMagie(j).equals(Visibilite.cache)) {
                                 code = "0";

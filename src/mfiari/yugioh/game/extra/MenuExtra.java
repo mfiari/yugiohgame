@@ -17,7 +17,7 @@ public class MenuExtra extends ControlleurVue {
     
 
     public MenuExtra() {
-        
+        super(true);
     }
     
     public void menu () {

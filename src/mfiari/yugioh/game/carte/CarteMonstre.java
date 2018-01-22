@@ -4,8 +4,6 @@
  */
 package mfiari.yugioh.game.carte;
 
-import mfiari.yugioh.game.carte.Carte;
-
 /**
  *
  * @author mike

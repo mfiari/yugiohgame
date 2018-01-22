@@ -27,6 +27,7 @@ public class DuelExtra extends ControlleurVue {
     private Dueliste adv;
     
     public DuelExtra () {
+        super(true);
         //CreationCapacite creationCapacite = new CreationCapacite();
         CreationPerso creationPerso = new CreationPerso();
         CreationCarte creationCarte = new CreationCarte();
