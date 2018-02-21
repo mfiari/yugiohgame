@@ -18,7 +18,7 @@ import mfiari.lib.game.swing.Ecran;
 import mfiari.lib.game.swing.PanelImage;
 import mfiari.lib.game.swing.VueSwing;
 import mfiari.lib.game.texte.Langue;
-import mfiari.yugioh.game.demarrage.Demarrage;
+import mfiari.yugioh.game.controller.Demarrage;
 import mfiari.yugioh.game.media.image.util.ImageUtil;
 import mfiari.yugioh.game.texte.TexteVueDemarrage;
 

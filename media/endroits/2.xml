@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<endroit largeur="10" longueur="10" nom="salle de cours" positionx="0" positiony="0" type="route">
+<sol type="herbe"/>
+<objet_endroits>
+<objet_endroit positionx="6" positiony="5" type="porte"/>
+</objet_endroits>
+<batiments/>
+<gens>
+<dueliste nom="Yugi" positionx="0" positiony="0"/>
+<dueliste nom="Bakura" positionx="0" positiony="1"/>
+<dueliste nom="Joey" positionx="1" positiony="0"/>
+<dueliste nom="Tea" positionx="1" positiony="1"/>
+<dueliste nom="Ando" positionx="2" positiony="1"/>
+</gens>
+</endroit>

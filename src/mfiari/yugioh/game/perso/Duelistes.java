@@ -13,17 +13,17 @@ import mfiari.yugioh.game.ville.Endroits;
  */
 public class Duelistes {
     
-    public static Dueliste yugi = new Dueliste("Yugi", 0, 0, Endroits.salleCours_ecole_quartierEcole_villeDebut, Orientation.face);
+    public static Dueliste yugi = new Dueliste("Yugi", 0, 0, /*Endroits.salleCours_ecole_quartierEcole_villeDebut*/null, Orientation.face);
     public static Dueliste kaiba = new Dueliste("Kaiba", 0, 0, null, Orientation.face);
-    public static Dueliste joey = new Dueliste("Joey", 1, 0, Endroits.salleCours_ecole_quartierEcole_villeDebut, Orientation.face);
+    public static Dueliste joey = new Dueliste("Joey", 1, 0, /*Endroits.salleCours_ecole_quartierEcole_villeDebut*/null, Orientation.face);
     public static Dueliste insector_haga = new Dueliste("Insector haga", 0, 0, null, Orientation.face);
     public static Dueliste mai = new Dueliste("Mai", 0, 0, null, Orientation.face);
     public static Dueliste rex_raptor = new Dueliste("Rex raptor", 0, 0, null, Orientation.face);
-    public static Dueliste bakura = new Dueliste("Bakura", 0, 1, Endroits.salleCours_ecole_quartierEcole_villeDebut, Orientation.face);
+    public static Dueliste bakura = new Dueliste("Bakura", 0, 1, /*Endroits.salleCours_ecole_quartierEcole_villeDebut*/null, Orientation.face);
     public static Dueliste pegasus = new Dueliste("Pegasus", 0, 0, null, Orientation.face);
     public static Dueliste bandit_keith = new Dueliste("Banditkeith", 0, 0, null, Orientation.face);
-    public static Dueliste tea = new Dueliste("Tea", 1, 1, Endroits.salleCours_ecole_quartierEcole_villeDebut, Orientation.face);
-    public static Dueliste ando = new Dueliste("Ando", 2, 1, Endroits.salleCours_ecole_quartierEcole_villeDebut, Orientation.face);
+    public static Dueliste tea = new Dueliste("Tea", 1, 1, /*Endroits.salleCours_ecole_quartierEcole_villeDebut*/null, Orientation.face);
+    public static Dueliste ando = new Dueliste("Ando", 2, 1, /*Endroits.salleCours_ecole_quartierEcole_villeDebut*/null, Orientation.face);
     public static Dueliste mako = new Dueliste("Mako", 0, 0, null, Orientation.face);
     
     public static Dueliste dueliste_ext1 = new Dueliste("dueliste 1", 0, 0, null, Orientation.face);

@@ -7,7 +7,7 @@ package mfiari.yugioh.game;
 import mfiari.lib.game.connexionBD.ConnexionBD;
 import mfiari.lib.game.swing.Ecran;
 import mfiari.yugioh.game.connexion.CreationBase;
-import mfiari.yugioh.game.demarrage.Demarrage;
+import mfiari.yugioh.game.controller.Demarrage;
 
 /**
  *
